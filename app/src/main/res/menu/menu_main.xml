@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="alexandremoritz.com.fredol.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"
+        android:visible="true"/>
+
+
+    <!-- Settings, should always be in the overflow -->
+    <item
+            android:id="@+id/Explication"
+            android:title="@string/ExplicationDonnée"
+            app:showAsAction="never" />
+
+    <item
+            android:id="@+id/Sources"
+            android:title="@string/Sources"
+            app:showAsAction="never" />
+
+    <item
+            android:id="@+id/lib"
+            android:title="@string/Librairiesetlicences"
+            app:showAsAction="never" />
+
+    <item
+            android:id="@+id/credits"
+            android:title="@string/Credits"
+            app:showAsAction="never" />
+
+</menu>
